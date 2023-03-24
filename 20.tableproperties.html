@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        caption
+        {
+            text-transform: uppercase;
+            font-variant: small-caps;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight:bold;
+        }
+        table tr:nth-child(even)
+        {
+            background-color: red;
+        }
+        table td:nth-child(even)
+        {
+            background-color:aliceblue;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>display table in css</h1>
+    <table width:"100" border="1px" cellspacing="10" cellpadding="10">
+        <caption>student details </caption>
+        <colgroup>
+        <col width="10%">
+        <col>
+        <col>
+        <col>
+    </colgroup>
+        <thead>
+        <tr>
+            <th>sno</th>
+            <th>name</th>
+            <th>age</th>
+            <th>city</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>anushiya</td>
+            <td>30</td>
+            <td>bangalore</td>
+    
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>buddyreddy</td>
+            <td>27</td>
+            <td>hyderabad</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>charitha</td>
+            <td rowspan="2">28</td>
+            <td>Andhra pradesh</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>chitrarubini</td>
+            
+            <td>pondicherry</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="4">morning batch</td>
+
+        </tfoot>
+    </table>
+
+</body>
+</html>

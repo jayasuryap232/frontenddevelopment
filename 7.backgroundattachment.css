@@ -1,0 +1,9 @@
+div 
+{
+    color:khaki;
+    font-size:25px;
+    font-weight:bold;
+    padding:10px;
+    background:aliceblue url(/images/kid.jpg) no-repeat;
+    background-attachment: fixed;
+}

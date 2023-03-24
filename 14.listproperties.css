@@ -1,0 +1,18 @@
+ul li
+{
+    /*list-style-type:square;
+    list-style-image:url(/images/balloon.jpg);
+    */
+    list-style-type:none;
+
+}
+ul li::before
+{
+    content:"";
+    display:inline-block;
+    margin-right:10px;
+    height:15px;
+    width:15px;
+    background-image:url(/images/balloon.jpg);
+    background-size:cover;
+}

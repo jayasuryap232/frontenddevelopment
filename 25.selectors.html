@@ -1,0 +1,57 @@
+<!Doctype html>
+<html>
+<head>
+<style>
+.box +p /*  > direct child  +adjacent child      */
+{
+color:red;
+}
+div[class="inner"]
+{
+background:grey;
+}
+div[class="box"]
+{
+color:green;
+}
+p[class~="text class1"]
+{
+color:yellow;
+}
+a[title^="start"]
+{
+color:grey;
+}
+a[title$="end"]
+{
+color:orange;
+}
+
+
+
+
+</style>
+</head>
+<body>
+<h1> more selector properties in css </h1>
+<div class="box">
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',</p>
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',</p>
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',</p>
+<div class="inner">
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',</p>
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',</p>
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',</p>
+
+</div>
+</div>
+<p class="text class1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',</p>
+<p class="text class2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',</p>
+<p class="text class3">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',</p>
+<a href="#" title="start end ">link1</a>
+<a href="#" title="start end">link1</a>
+<a href="#" title="end second  ">link1</a>
+<a href="#" title=" end  second ">link1</a>
+<a href="#" title ="start end ">link1</a>
+</body>
+</html>

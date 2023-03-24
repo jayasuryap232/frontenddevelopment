@@ -1,0 +1,21 @@
+body
+{
+    margin:0;
+    padding:0;
+    
+}
+div 
+{
+    width:1000px;
+    height:500px;
+    background-image: url(/images/kid.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:transparent;
+    text-align:center;
+    font-size:28px;
+    background-clip:text;
+
+
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .table
+        {
+            margin-top:100px;
+            margin-left:100px;
+            display: table;
+            width:600px;
+        }
+        .row /* row */
+        {
+            display: table-row;
+        }
+        .col /*  td */
+        {
+            display: table-cell;
+            border:1px solid orangered;
+            text-align: center;
+        }
+        .header
+        {
+            display: table-header-group;
+            text-align:center;
+            background-color: orangered;
+            font-weight:bold;
+            color:white;
+
+        }
+        .footer
+        {
+            display: table-footer-group;
+        }
+        .caption
+        {
+            display: table-caption;
+            text-align: center;
+            font-weight: bold;
+            text-transform:uppercase;
+            word-spacing:2px;
+            padding:10px;
+
+        }
+        .colgroup
+        {
+            display: table-column-group;
+        }
+        .tbl-col
+        {
+            display: table-column;
+        }
+        .col2
+        {
+            width:50px;
+            background-color: orangered;
+        }
+        .row-group
+        {
+            display: table-row-group;
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="table">
+        <div class="caption">
+            full stack java trainees
+        </div>
+        <div class="colgroup">
+            <div class="tbl-col">col-1</div>
+            <div class="tbl-col col2">col-2</div>
+            <div class="tbl-col">col-3</div>
+        </div>
+        <div class="header">
+            <div class="row">
+                <div class="col">Name</div>
+                <div class="col">Age</div>
+                <div class="col">City</div>
+            </div>
+
+        </div>
+        <div class="row-group">
+        
+        <div class="row">
+            <div class="col">Anushiya</div>
+            <div class="col">32</div>
+            <div class="col">bangalore</div>
+        </div>
+
+        <div class="row">
+            <div class="col">buddy reddy</div>
+            <div class="col">28</div>
+            <div class="col">hyderabad</div>
+        </div>
+        <div class="row">
+            <div class="col">charitha</div>
+            <div class="col">27</div>
+            <div class="col">andhra pradesh</div>
+        </div>
+        <div class="row">
+            <div class="col">chitrarubini</div>
+            <div class="col">27</div>
+            <div class="col">pondicherry</div>
+        </div>
+        </div>
+        <div class="footer">
+            <div class="row">
+                <div class="col">total student</div>
+                <div class="col"></div>
+                <div class="col">5</div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

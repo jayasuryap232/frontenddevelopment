@@ -1,0 +1,28 @@
+html{
+    background-color:teal;
+}
+body{
+    height:1000px;
+    width:800px;
+    background:white;
+}
+h1
+{
+    letter-spacing:5px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+b{
+    vertical-align: sub;
+}
+span{
+    vertical-align: super;
+}
+p
+{
+    text-indent:10px;
+    text-align: justify;
+    line-height:20px;
+}

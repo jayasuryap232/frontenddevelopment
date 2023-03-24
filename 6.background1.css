@@ -1,0 +1,12 @@
+div
+{
+    width:900px;
+    height:500px;
+    padding:10px;
+    background:teal url(/images/kid.jpg)no-repeat;
+    background-size: auto;
+    background-size: 200px;
+    background-size:400px 200px;
+    background-size: cover;
+    background-size: contain;
+}

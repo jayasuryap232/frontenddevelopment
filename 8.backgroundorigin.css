@@ -1,0 +1,15 @@
+body
+{
+    background-color:  aliceblue;
+}
+div
+{
+background-color: #fff;
+width:800px;
+height:600px;
+padding:25px;
+border:20px dashed black;
+background-image: url(/images/web.jpeg);
+background-origin:border-box;
+background-size: cover;
+}
